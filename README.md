@@ -1,7 +1,7 @@
 # Vision Text OCR UI
 
 This project is the frontend user interface for the Vision Text OCR Service. A 
-service that captures text from images.
+service that captures text from images. See backend service [here](https://github.com/hartake/vision-text-ocr-service)
 
 ## Purpose
 
