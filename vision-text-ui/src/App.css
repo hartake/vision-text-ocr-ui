@@ -40,13 +40,13 @@
 }
 
 .tabs button {
-  background-color: #f0f0f0;
+  background-color: #312d2d;
   border: 1px solid #ccc;
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
 
 .tabs button.active {
-  background-color: #fff;
+  background-color: #312d2d;
   border-bottom-color: #fff;
 }
