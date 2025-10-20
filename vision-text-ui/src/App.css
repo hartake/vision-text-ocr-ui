@@ -66,3 +66,8 @@
   background-color: #312d2d;
   border-bottom-color: #fff;
 }
+
+.file-details {
+  list-style-type: none;
+  padding-left: 0;
+}

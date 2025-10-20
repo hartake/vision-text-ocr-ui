@@ -64,7 +64,7 @@ const ImageUploadForm = ({ setOcrResult }) => {
       {file && (
         <section>
           File details:
-          <ul>
+          <ul className="file-details">
             <li>Name: {file.name}</li>
             <li>Type: {file.type}</li>
             <li>Size: {file.size} bytes</li>

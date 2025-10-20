@@ -21,11 +21,6 @@ function App() {
 
   return (
     <>
-      <nav className="navbar">
-        <button onClick={() => setView('ocr')}>OCR</button>
-        <button onClick={() => setView('feedback')}>Feedback</button>
-      </nav>
-
       <h1>Vision Text: Image to Text (OCR)</h1>
 
       <div className="tabs">
