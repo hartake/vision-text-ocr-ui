@@ -46,3 +46,23 @@
   text-align: left; /* Align text to the left for readability */
   white-space: pre-wrap; /* Preserve line breaks from OCR */
 }
+
+.ocr-result-text p {
+  white-space: pre-wrap; /* Allows text to wrap and preserves whitespace */
+}
+
+.tabs {
+  margin-bottom: 1rem;
+}
+
+.tabs button {
+  background-color: #312d2d;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: #312d2d;
+  border-bottom-color: #fff;
+}
