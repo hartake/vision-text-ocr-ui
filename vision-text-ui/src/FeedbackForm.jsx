@@ -12,12 +12,12 @@ const FeedbackForm = () => {
     }
 
     try {
-      const response = await fetch('/api/v1/feedback', {
+      const response = await fetch('http://localhost:8000/api/v1/feedback', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ feedback }),
+        body: JSON.stringify({ comment: feedback }),
       });
 
       if (response.ok) {
