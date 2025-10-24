@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+
+# Build artifacts
+dist
+build
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Misc
+npm-debug.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
