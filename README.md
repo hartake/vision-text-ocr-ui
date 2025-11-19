@@ -32,6 +32,21 @@ This UI is the frontend component of a client-server decoupled full-stack applic
 -   `npm run build`: Builds the app for production.
 -   `npm run preview`: Serves the production build locally.
 
+## Running with Docker (Recommended)
+
+For a consistent and isolated development environment, you can build and run this project using Docker. This is the recommended way to run the application locally without needing to install Node.js or npm on your host machine.
+
+1.  **Prerequisites**: Make sure you have [Docker](https://www.docker.com/products/docker-desktop/) installed and running.
+2.  **Build the Image**: Open a terminal in the `vision-text-ui/` directory and run the build command. This will create a local container image named `vision-text-ui:local`.
+    ```sh
+    docker build -t vision-text-ui:local .
+    ```
+3.  **Run the Container**: After the build is complete, run the following command. This will start the container and make the application available on your local machine.
+    ```sh
+    docker run --rm -p 8080:8080 vision-text-ui:local
+    ```
+4.  **Access the Application**: Open your web browser and navigate to `http://localhost:8080`.
+
 ## UI Preview
 
 ### 1. Select Image to Translate
