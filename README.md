@@ -43,7 +43,7 @@ For a consistent and isolated development environment, you can build and run thi
     ```
 3.  **Run the Container**: After the build is complete, run the following command. This will start the container and make the application available on your local machine.
     ```sh
-    docker run --rm -p 8080:8080 vision-text-ui:local
+    docker run --rm --name vision-text-ocr-ui -p 8080:8080 vision-text-ui:local
     ```
 4.  **Access the Application**: Open your web browser and navigate to `http://localhost:8080`.
 
